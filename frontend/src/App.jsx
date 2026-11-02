@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, useRef } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:3000/notes";
+const API = "https://note-application-backend-yzaj.onrender.com";
 
 const formatDate = (iso) => {
   const d = new Date(iso);
