@@ -4,7 +4,7 @@ const cors=require("cors");
 
 const app= express();
 app.use(cors({
-    origin:https://note-application-frontend-2iqb.onrender.com
+    origin:"https://note-application-frontend-2iqb.onrender.com"
 }));
 app.use(express.json())
 
